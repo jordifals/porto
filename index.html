@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jordi — Backend Developer & Data Engineer</title>
+    <meta name="description"
+        content="Portfolio Jordi — Backend Developer yang berfokus pada Data Engineering, Database, dan Pipeline Data. Berpengalaman dengan SQL, Apache Doris, dan Airflow." />
+    <meta name="keywords" content="backend developer, data engineer, portfolio, SQL, Apache Doris, Airflow" />
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- ====== NAVBAR ====== -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#home" class="nav-logo">&lt;Jordi<span>/&gt;</span></a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ====== HERO ====== -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text reveal">
+                    <div class="hero-subtitle">
+                        <span>&gt;</span>
+                        <span id="typing-text"></span>
+                        <span class="cursor-blink"></span>
+                    </div>
+                    <h1>Hi, I'm <span class="gradient">Jordi</span></h1>
+                    <p class="hero-desc">
+                        Crafting robust backend systems and scalable data pipelines.
+                        Passionate about turning raw data into actionable insights through
+                        clean architecture and efficient database design.
+                    </p>
+                    <div class="hero-tags">
+                        <span>SQL</span>
+                        <span>Apache Doris</span>
+                        <span>Airflow</span>
+                        <span>MariaDB</span>
+                        <span>Linux</span>
+                        <span>Data Engineering</span>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i> View Projects
+                        </a>
+                        <a href="cv/Curriculum Vitae Muhamad Jordi Riawan.pdf"
+                            download="Curriculum_Vitae_Muhamad_Jordi_Riawan.pdf" class="btn btn-outline">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image reveal reveal-delay-2">
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image-glow"></div>
+                        <img src="assets/poto.jpg" alt="Jordi - Backend Developer" />
+                        <div class="orbit-ring">
+                            <div class="orbit-dot"></div>
+                            <div class="orbit-dot"></div>
+                            <div class="orbit-dot"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== ABOUT ====== -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">About Me</span>
+                <h2 class="section-title">Mengenal Lebih Dekat</h2>
+                <p class="section-desc">Seorang backend developer yang passionate tentang data engineering dan optimasi
+                    database.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>
+                        Saya adalah seorang <strong>Backend Developer</strong> yang memiliki fokus kuat pada
+                        <strong>Data Engineering</strong> dan pengelolaan <strong>Database</strong>. Saya memiliki
+                        pengalaman dalam membangun dan mengoptimasi sistem backend, mendesain data pipeline,
+                        serta melakukan migrasi database skala besar.
+                    </p>
+                    <p>
+                        Keahlian utama saya meliputi penulisan dan optimasi query SQL yang kompleks,
+                        pengelolaan database MariaDB dan Apache Doris, serta pembangunan pipeline data
+                        menggunakan Apache Airflow. Saya juga berpengalaman dengan environment Linux
+                        dan version control menggunakan Git.
+                    </p>
+                    <p>
+                        Saya selalu berusaha menulis kode yang bersih, efisien, dan mudah dimaintain,
+                        dengan fokus pada performa dan skalabilitas sistem.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <div class="stat-number" data-count="10" data-suffix="+">0</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-count="8" data-suffix="+">0</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-count="1" data-suffix="+">0</div>
+                            <div class="stat-label">Years Exp</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-code-block reveal reveal-delay-2">
+                    <div class="code-header">
+                        <div class="code-dot red"></div>
+                        <div class="code-dot yellow"></div>
+                        <div class="code-dot green"></div>
+                        <span>about_me.json</span>
+                    </div>
+                    <div class="code-body">
+                        <span class="bracket">{</span><br />
+                        &nbsp;&nbsp;<span class="key">"name"</span>: <span class="string">"Jordi"</span>,<br />
+                        &nbsp;&nbsp;<span class="key">"role"</span>: <span class="string">"Backend
+                            Developer"</span>,<br />
+                        &nbsp;&nbsp;<span class="key">"focus"</span>: <span class="string">"Data
+                            Engineering"</span>,<br />
+                        &nbsp;&nbsp;<span class="key">"skills"</span>: <span class="bracket">[</span><br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"SQL"</span>, <span
+                            class="string">"MariaDB"</span>,<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"Apache Doris"</span>,<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"Apache Airflow"</span>,<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"Linux"</span>, <span
+                            class="string">"Git"</span><br />
+                        &nbsp;&nbsp;<span class="bracket">]</span>,<br />
+                        &nbsp;&nbsp;<span class="key">"passion"</span>: <span class="string">"Turning
+                            data<br />&nbsp;&nbsp;&nbsp;&nbsp;into insights"</span>,<br />
+                        &nbsp;&nbsp;<span class="key">"available"</span>: <span style="color:#22c55e">true</span><br />
+                        <span class="bracket">}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== SKILLS ====== -->
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Skills</span>
+                <h2 class="section-title">Teknologi & Keahlian</h2>
+                <p class="section-desc">Tools dan teknologi yang saya gunakan sehari-hari untuk membangun solusi data
+                    yang handal.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>SQL</h3>
+                    <p>Query optimization & complex joins</p>
+                </div>
+                <div class="skill-card reveal reveal-delay-1">
+                    <div class="skill-icon"><i class="fas fa-server"></i></div>
+                    <h3>MariaDB</h3>
+                    <p>Database management & tuning</p>
+                </div>
+                <div class="skill-card reveal reveal-delay-2">
+                    <div class="skill-icon"><i class="fas fa-cubes"></i></div>
+                    <h3>Apache Doris</h3>
+                    <p>OLAP analytics engine</p>
+                </div>
+                <div class="skill-card reveal reveal-delay-3">
+                    <div class="skill-icon"><i class="fas fa-wind"></i></div>
+                    <h3>Apache Airflow</h3>
+                    <p>Workflow orchestration</p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fab fa-linux"></i></div>
+                    <h3>Linux</h3>
+                    <p>Server administration & scripting</p>
+                </div>
+                <div class="skill-card reveal reveal-delay-1">
+                    <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                    <h3>Git</h3>
+                    <p>Version control & collaboration</p>
+                </div>
+                <div class="skill-card reveal reveal-delay-2">
+                    <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+                    <h3>JavaScript</h3>
+                    <p>Web development & scripting</p>
+                </div>
+                <div class="skill-card reveal reveal-delay-3">
+                    <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Data Engineering</h3>
+                    <p>ETL pipelines & data modeling</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== PROJECTS ====== -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Projects</span>
+                <h2 class="section-title">Proyek Terbaru</h2>
+                <p class="section-desc">Beberapa proyek yang telah saya kerjakan, dari migrasi database hingga data
+                    pipeline.</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card reveal">
+                    <div class="project-banner">
+                        <div class="project-banner-bg" style="background: linear-gradient(135deg, #1e1b4b, #312e81);">
+                            <i class="fas fa-exchange-alt" style="color: rgba(255,255,255,0.2);"></i>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Migrasi Query MariaDB ke Apache Doris</h3>
+                        <p>Melakukan migrasi dan optimasi query dari MariaDB ke Apache Doris untuk meningkatkan performa
+                            analitik data secara signifikan.</p>
+                        <div class="project-tech">
+                            <span>MariaDB</span><span>Apache Doris</span><span>SQL</span><span>Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i> Github</a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card reveal reveal-delay-1">
+                    <div class="project-banner">
+                        <div class="project-banner-bg" style="background: linear-gradient(135deg, #0c4a6e, #155e75);">
+                            <i class="fas fa-project-diagram" style="color: rgba(255,255,255,0.2);"></i>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Data Pipeline dengan Airflow</h3>
+                        <p>Membangun pipeline data otomatis menggunakan Apache Airflow untuk orkestrasi ETL process dari
+                            berbagai sumber data.</p>
+                        <div class="project-tech">
+                            <span>Airflow</span><span>Python</span><span>SQL</span><span>Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i> Github</a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card reveal reveal-delay-2">
+                    <div class="project-banner">
+                        <div class="project-banner-bg" style="background: linear-gradient(135deg, #4a1d96, #6d28d9);">
+                            <i class="fas fa-chart-bar" style="color: rgba(255,255,255,0.2);"></i>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Website Dashboard dari Query SQL</h3>
+                        <p>Membuat website dashboard interaktif yang menampilkan visualisasi data real-time dari query
+                            SQL yang dioptimasi.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span><span>SQL</span><span>Chart.js</span><span>Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i> Github</a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card reveal reveal-delay-3">
+                    <div class="project-banner">
+                        <div class="project-banner-bg" style="background: linear-gradient(135deg, #064e3b, #065f46);">
+                            <i class="fas fa-plug" style="color: rgba(255,255,255,0.2);"></i>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3>API Integration Project</h3>
+                        <p>Mengembangkan sistem integrasi API untuk menghubungkan berbagai layanan dan mengotomatisasi
+                            pertukaran data antar platform.</p>
+                        <div class="project-tech">
+                            <span>REST API</span><span>Node.js</span><span>MariaDB</span><span>Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i> Github</a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== EXPERIENCE ====== -->
+    <section class="section" id="experience">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Experience</span>
+                <h2 class="section-title">Pengalaman Kerja</h2>
+                <p class="section-desc">Perjalanan profesional saya di bidang backend development dan data engineering.
+                </p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Des 2025 — Jun 2026</div>
+                        <h3>Data Engineer Intern</h3>
+                        <h4>MagangHub</h4>
+                        <ul>
+                            <li>Membangun dan mengelola data pipeline ETL menggunakan Apache Flink dan dbt</li>
+                            <li>Mengotomatisasi workflow pengolahan data menggunakan Apache Airflow</li>
+                            <li>Membuat dashboard visualisasi data menggunakan Apache Superset dan Metabase</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal reveal-delay-1">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Mei — Jun 2025</div>
+                        <h3>Tugas Akhir / Skripsi</h3>
+                        <h4>Universitas Budi Luhur</h4>
+                        <ul>
+                            <li>Membuat sistem data mining menggunakan algoritma Apriori dan metode Association Rule
+                            </li>
+                            <li>Melakukan Market Basket Analysis untuk menemukan pola pembelian pada Coffee Shop SS</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal reveal-delay-2">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Mei — Jul 2024</div>
+                        <h3>Kerja Praktik (KKP)</h3>
+                        <h4>PT 99 Security Professional System Service</h4>
+                        <ul>
+                            <li>Mengembangkan sistem presensi karyawan online berbasis Android dan web</li>
+                            <li>Menerapkan algoritma Haversine untuk menentukan keakuratan lokasi presensi</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal reveal-delay-3">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Jan — Mar 2020</div>
+                        <h3>Praktik Kerja Lapangan (PKL)</h3>
+                        <h4>GraPARI Telkomsel</h4>
+                        <ul>
+                            <li>Menginput data laporan pekerja Telkomsel untuk kebutuhan pelaporan ke pusat</li>
+                            <li>Melakukan pelaporan data harian telepon kantor ke pusat</li>
+                            <li>Melakukan penarikan dan penataan kabel LAN</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== CONTACT ====== -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Contact</span>
+                <h2 class="section-title">Mari Terhubung</h2>
+                <p class="section-desc">Tertarik untuk bekerja sama? Jangan ragu untuk menghubungi saya.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <h3>Hubungi Saya</h3>
+                    <p>Saya selalu terbuka untuk diskusi tentang project baru, ide kreatif, atau kesempatan untuk
+                        menjadi bagian dari tim Anda.</p>
+                    <div class="contact-links">
+                        <a href="mailto:muhamadjordi11136@gmail.com" class="contact-link">
+                            <div class="contact-link-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <strong>Email</strong><br />
+                                <span>muhamadjordi11136@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/6285129749756" target="_blank" class="contact-link">
+                            <div class="contact-link-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                            <div>
+                                <strong>WhatsApp</strong><br />
+                                <span>+62 851-2974-9756</span>
+                            </div>
+                        </a>
+                        <a href="https://github.com/jordifals" target="_blank" class="contact-link">
+                            <div class="contact-link-icon"><i class="fa-brands fa-github"></i></div>
+                            <div>
+                                <strong>Github</strong><br />
+                                <span>github.com/jordifals</span>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/jordiriawan/" target="_blank" class="contact-link">
+                            <div class="contact-link-icon"><i class="fa-brands fa-linkedin"></i></div>
+                            <div>
+                                <strong>LinkedIn</strong><br />
+                                <span>linkedin.com/in/jordiriawan</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form reveal reveal-delay-2">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nama</label>
+                            <input type="text" id="name" name="name" placeholder="Nama lengkap Anda" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="email@example.com" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" placeholder="Tulis pesan Anda di sini..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                            <i class="fas fa-paper-plane"></i> Kirim Pesan
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== FOOTER ====== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="mailto:muhamadjordi11136@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://wa.me/6285129749756" target="_blank" title="WhatsApp"><i
+                        class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/jordiriawan/" target="_blank" title="LinkedIn"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/jordifals" target="_blank" title="GitHub"><i
+                        class="fa-brands fa-github"></i></a>
+            </div>
+            <p>&copy; 2025 Jordi. Built with <i class="fas fa-heart" style="color: #ef4444;"></i> and clean code.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
