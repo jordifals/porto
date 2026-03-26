@@ -221,89 +221,145 @@
                     pipeline.</p>
             </div>
             <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card reveal">
+                <!-- Project 1: DAGs Airflow -->
+                <div class="project-card reveal" data-project="1">
                     <div class="project-banner">
-                        <div class="project-banner-bg" style="background: linear-gradient(135deg, #1e1b4b, #312e81);">
-                            <i class="fas fa-exchange-alt" style="color: rgba(255,255,255,0.2);"></i>
-                        </div>
+                        <div class="project-status">DEPLOYED</div>
+                        <img src="project/Dags_Airflow.png" alt="DAGs Airflow - Data Pipeline Orchestration"
+                            loading="lazy" />
                     </div>
                     <div class="project-body">
-                        <h3>Migrasi Query MariaDB ke Apache Doris</h3>
-                        <p>Melakukan migrasi dan optimasi query dari MariaDB ke Apache Doris untuk meningkatkan performa
-                            analitik data secara signifikan.</p>
+                        <h3>Data Pipeline Orchestration — Apache Airflow</h3>
+                        <p>Membangun dan mengelola DAGs pada Apache Airflow untuk orkestrasi pipeline data otomatis
+                            dengan dbt dan Apache Doris, mendukung multiple workflows secara paralel.</p>
                         <div class="project-tech">
-                            <span>MariaDB</span><span>Apache Doris</span><span>SQL</span><span>Python</span>
+                            <span>Airflow</span><span>dbt</span><span>Apache Doris</span><span>Python</span>
                         </div>
                         <div class="project-links">
+                            <a href="#" class="btn-detail" onclick="openProjectModal(1); return false;">
+                                <i class="fas fa-eye"></i> View Detail
+                            </a>
                             <a href="#"><i class="fab fa-github"></i> Github</a>
-                            <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
                         </div>
                     </div>
                 </div>
-                <!-- Project 2 -->
-                <div class="project-card reveal reveal-delay-1">
+                <!-- Project 2: Transform Data (Flink) -->
+                <div class="project-card reveal reveal-delay-1" data-project="2">
                     <div class="project-banner">
-                        <div class="project-banner-bg" style="background: linear-gradient(135deg, #0c4a6e, #155e75);">
-                            <i class="fas fa-project-diagram" style="color: rgba(255,255,255,0.2);"></i>
-                        </div>
+                        <div class="project-status">RUNNING</div>
+                        <img src="project/Transform_data.png" alt="Apache Flink - Data Migration" loading="lazy" />
                     </div>
                     <div class="project-body">
-                        <h3>Data Pipeline dengan Airflow</h3>
-                        <p>Membangun pipeline data otomatis menggunakan Apache Airflow untuk orkestrasi ETL process dari
-                            berbagai sumber data.</p>
+                        <h3>Real-time Data Migration — Apache Flink</h3>
+                        <p>Melakukan migrasi data real-time dari MariaDB ke Apache Doris menggunakan Apache Flink CDC,
+                            memproses jutaan record dengan minimal downtime.</p>
                         <div class="project-tech">
-                            <span>Airflow</span><span>Python</span><span>SQL</span><span>Docker</span>
+                            <span>Apache Flink</span><span>CDC</span><span>MariaDB</span><span>Docker</span>
                         </div>
                         <div class="project-links">
+                            <a href="#" class="btn-detail" onclick="openProjectModal(2); return false;">
+                                <i class="fas fa-eye"></i> View Detail
+                            </a>
                             <a href="#"><i class="fab fa-github"></i> Github</a>
-                            <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
                         </div>
                     </div>
                 </div>
-                <!-- Project 3 -->
-                <div class="project-card reveal reveal-delay-2">
+                <!-- Project 3: Visualisasi Data Apache Superset -->
+                <div class="project-card reveal reveal-delay-2" data-project="3">
                     <div class="project-banner">
-                        <div class="project-banner-bg" style="background: linear-gradient(135deg, #4a1d96, #6d28d9);">
-                            <i class="fas fa-chart-bar" style="color: rgba(255,255,255,0.2);"></i>
-                        </div>
+                        <div class="project-status">LIVE</div>
+                        <img src="project/Visualisasi Data Apache Superset.png"
+                            alt="Apache Superset - Data Visualization Dashboard" loading="lazy" />
                     </div>
                     <div class="project-body">
-                        <h3>Website Dashboard dari Query SQL</h3>
-                        <p>Membuat website dashboard interaktif yang menampilkan visualisasi data real-time dari query
-                            SQL yang dioptimasi.</p>
+                        <h3>Dashboard Visualisasi — Apache Superset</h3>
+                        <p>Membuat dashboard analitik interaktif menggunakan Apache Superset dengan visualisasi chart
+                            dan tabel data untuk monitoring penjualan dan performa bisnis secara real-time.</p>
                         <div class="project-tech">
-                            <span>JavaScript</span><span>SQL</span><span>Chart.js</span><span>Node.js</span>
+                            <span>Apache Superset</span><span>SQL</span><span>Apache Doris</span><span>Analytics</span>
                         </div>
                         <div class="project-links">
+                            <a href="#" class="btn-detail" onclick="openProjectModal(3); return false;">
+                                <i class="fas fa-eye"></i> View Detail
+                            </a>
                             <a href="#"><i class="fab fa-github"></i> Github</a>
-                            <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
                         </div>
                     </div>
                 </div>
-                <!-- Project 4 -->
-                <div class="project-card reveal reveal-delay-3">
+                <!-- Project 4: Airflow + dbt Integration -->
+                <div class="project-card reveal reveal-delay-3" data-project="4">
                     <div class="project-banner">
-                        <div class="project-banner-bg" style="background: linear-gradient(135deg, #064e3b, #065f46);">
-                            <i class="fas fa-plug" style="color: rgba(255,255,255,0.2);"></i>
-                        </div>
+                        <div class="project-status">COMPLETED</div>
+                        <img src="project/airflow_dbt.png" alt="Airflow dbt - ETL Automation" loading="lazy" />
                     </div>
                     <div class="project-body">
-                        <h3>API Integration Project</h3>
-                        <p>Mengembangkan sistem integrasi API untuk menghubungkan berbagai layanan dan mengotomatisasi
-                            pertukaran data antar platform.</p>
+                        <h3>ETL Automation — Airflow + dbt</h3>
+                        <p>Mengotomatisasi proses ETL menggunakan Apache Airflow dan dbt untuk transformasi data
+                            incremental, memastikan data warehouse selalu up-to-date secara terjadwal.</p>
                         <div class="project-tech">
-                            <span>REST API</span><span>Node.js</span><span>MariaDB</span><span>Docker</span>
+                            <span>Airflow</span><span>dbt</span><span>Bash</span><span>Apache Doris</span>
                         </div>
                         <div class="project-links">
+                            <a href="#" class="btn-detail" onclick="openProjectModal(4); return false;">
+                                <i class="fas fa-eye"></i> View Detail
+                            </a>
                             <a href="#"><i class="fab fa-github"></i> Github</a>
-                            <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- ====== PROJECT DETAIL MODAL ====== -->
+    <div class="modal-overlay" id="project-modal">
+        <div class="modal-container">
+            <button class="modal-close" id="modal-close" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-content">
+                <!-- Modal Image -->
+                <div class="modal-image-wrapper">
+                    <img id="modal-image" src="" alt="Project Screenshot" />
+                    <div class="modal-status" id="modal-status"></div>
+                </div>
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <h2 id="modal-title" class="modal-title"></h2>
+                    <div class="modal-meta">
+                        <div class="modal-meta-item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span id="modal-duration"></span>
+                        </div>
+                        <div class="modal-meta-item">
+                            <i class="fas fa-user-tag"></i>
+                            <span id="modal-role"></span>
+                        </div>
+                    </div>
+                    <div class="modal-section">
+                        <h3><i class="fas fa-info-circle"></i> Deskripsi Proyek</h3>
+                        <p id="modal-description"></p>
+                    </div>
+                    <div class="modal-section">
+                        <h3><i class="fas fa-tasks"></i> Fitur & Pencapaian</h3>
+                        <ul id="modal-features" class="modal-features-list"></ul>
+                    </div>
+                    <div class="modal-section">
+                        <h3><i class="fas fa-cogs"></i> Teknologi yang Digunakan</h3>
+                        <div class="modal-tech" id="modal-tech"></div>
+                    </div>
+                    <div class="modal-actions">
+                        <a href="#" id="modal-github" class="btn btn-outline" target="_blank">
+                            <i class="fab fa-github"></i> Source Code
+                        </a>
+                        <button class="btn btn-primary" onclick="closeProjectModal()">
+                            <i class="fas fa-arrow-left"></i> Kembali
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- ====== EXPERIENCE ====== -->
     <section class="section" id="experience">
@@ -450,7 +506,7 @@
                 <a href="https://github.com/jordifals" target="_blank" title="GitHub"><i
                         class="fa-brands fa-github"></i></a>
             </div>
-            <p>&copy; 2025 Jordi. Built with <i class="fas fa-heart" style="color: #ef4444;"></i> and clean code.</p>
+            <!-- <p>&copy; 2025 Jordi. Built with <i class="fas fa-heart" style="color: #4ade80;"></i> and clean code.</p> -->
         </div>
     </footer>
 
